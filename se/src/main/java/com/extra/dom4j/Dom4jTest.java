@@ -11,4 +11,9 @@ public class Dom4jTest {
         Document document = DocumentHelper.createDocument();
     }
 
+    @Test
+    public void demo2(){
+
+    }
+
 }
