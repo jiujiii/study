@@ -2,7 +2,6 @@ package com;
 
 /**
  * Hello world!
- * rebase
  */
 public class App 
 {
