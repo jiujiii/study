@@ -9,7 +9,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 用来测试对象类
+ * 用来测试对象类,rebase3
  * </p>
  *
  * @author mengjian.ke@hand-china.com 2020/6/20 09:57
