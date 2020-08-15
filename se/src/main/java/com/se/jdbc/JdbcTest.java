@@ -11,9 +11,9 @@ public class JdbcTest {
     @Test
     public void demo1() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.jdbc.Driver");
-        String url="jdbc:mysql://120.78.164.205:3306/hzero_platform?useUnicode=true&characterEncoding=utf-8&useSSL=false";
-        String user="hzero";
-        String password="hzero";
+        String url="jdbc:mysql://49.233.146.217:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=false";
+        String user="root";
+        String password="bd3cf1rzh.";
 
         Connection connection = DriverManager.getConnection(url, user, password);
 

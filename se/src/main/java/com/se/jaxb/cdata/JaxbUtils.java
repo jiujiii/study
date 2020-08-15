@@ -32,10 +32,10 @@ public class JaxbUtils {
         return writer.toString();
     }
 
-    public static <T> Object xml2bean(String entity,Class<T> entityClass) throws JAXBException {
+    public static <T> T xml2bean(String entity,Class<T> entityClass) throws JAXBException {
         JAXBContext act = JAXBContext.newInstance(entityClass);
         Unmarshaller unMarshaller = act.createUnmarshaller();
-        return unMarshaller.unmarshal(new StringReader(entity));
+        return (T) unMarshaller.unmarshal(new StringReader(entity));
     }
 
     public static String bean2xml(Object entity) throws JAXBException {

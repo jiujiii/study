@@ -7,7 +7,7 @@ public class MementoCaretaker {
     private ArrayList<ChessmanMemento> mementolist = new ArrayList<>();
 
     public ChessmanMemento getMemento(int i){
-        return (ChessmanMemento)mementolist.get(i);
+        return mementolist.get(i);
     }
 
 }
