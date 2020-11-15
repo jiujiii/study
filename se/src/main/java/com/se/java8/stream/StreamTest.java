@@ -1063,6 +1063,12 @@ public class StreamTest {
                         .sum()
         );
     }
+    
+    @Test
+    public void demo56(){
+        final ArrayList<Dish> dishes = new ArrayList<>();
+        System.out.println(dishes.stream().sorted(Comparator.comparing(Dish::getCalories)).collect(Collectors.toList()));
+    }
 
     private static long sequentialSum(long n) {
         return Stream

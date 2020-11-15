@@ -2,9 +2,14 @@ package com.se.java8.Date;
 
 import org.junit.Test;
 
+import java.time.Instant;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
+import java.util.Date;
 
 public class LocateDateTest {
 
@@ -27,6 +32,17 @@ public class LocateDateTest {
             halfYear = "SECOND_HALF";
         }
         System.out.println(halfYear);
+    }
+
+    @Test
+    public void demo2(){
+        System.out.println(new Date().getTime());
+        final LocalDateTime now = LocalDateTime.now();
+        final LocalDateTime past = LocalDateTime.ofInstant(Instant.ofEpochMilli(1605422055922L), ZoneId.systemDefault());
+        final LocalDateTime pastPlus30Seconds = past.plus(30, ChronoUnit.SECONDS);
+        if(now.isAfter(pastPlus30Seconds)){
+            System.out.println("超时30秒");
+        }
     }
 
 }

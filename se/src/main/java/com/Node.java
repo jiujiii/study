@@ -23,6 +23,10 @@ public class Node {
 
     private int value;
 
+    public static Node of(int value){
+        return new Node(value);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
