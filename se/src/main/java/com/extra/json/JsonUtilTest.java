@@ -1,4 +1,4 @@
-package com.extra.jackson;
+package com.extra.json;
 
 import com.beust.jcommander.internal.Lists;
 import com.fasterxml.jackson.core.JsonProcessingException;

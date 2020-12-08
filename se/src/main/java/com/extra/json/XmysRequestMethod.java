@@ -1,4 +1,4 @@
-package com.extra.jackson;
+package com.extra.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;

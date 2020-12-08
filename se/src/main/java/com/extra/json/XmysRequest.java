@@ -1,15 +1,11 @@
-package com.extra.jackson;
+package com.extra.json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import lombok.Builder;
-import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.junit.Test;
-
-import java.util.List;
 
 /**
  * <p>
