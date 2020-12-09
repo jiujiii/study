@@ -150,12 +150,6 @@
         </dependency>
 
         <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
@@ -172,6 +166,7 @@
             <version>5.9.0</version>
         </dependency>
 
+<<<<<<< HEAD
         <!-- jaxb依赖包 -->
         <dependency>
             <groupId>javax.xml.bind</groupId>
@@ -193,5 +188,13 @@
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
         </dependency>
+=======
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.74</version>
+        </dependency>
+
+>>>>>>> da8f82fb8663ba6f0d78daee7fe107ad65f2a8e3
     </dependencies>
 </project>
