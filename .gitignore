@@ -3,3 +3,12 @@
 *.iml
 target
 *.DS_Store
+
+# vscode
+.project
+.settings/
+*/.project
+*/.settings/
+se/.factorypath
+se/.classpath
+.vscode/settings.json
